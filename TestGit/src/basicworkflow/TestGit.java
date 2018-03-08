@@ -2,16 +2,16 @@ package basicworkflow;
 
 public class TestGit {
 	
-	private String gitFromScratch;
+	private String gitFromStart;
 	
 	public TestGit() {
 	}
 	
 	public TestGit(String parameter) {
-		this.gitFromScratch = parameter;
+		this.gitFromStart = parameter;
 	}
 	
 	public String returnTheString() {
-		return this.gitFromScratch;
+		return this.gitFromStart;
 	}
 }
